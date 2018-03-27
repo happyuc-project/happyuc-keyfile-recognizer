@@ -1,11 +1,11 @@
 {
-    "ethersale": {
+    "hucersale": {
         "encseed" : "957e46d54c10da45351554eb60d731b164043743dfb212ccf1827491a01cf344b390e4ac5af640e4f54ff28b046e48dc84094b99011d72ca79f2da9aa2792f4d2b8545455ca8dbba15d69048b3f95eccfed2d19427abcb2c9483e7491163eb1b",
-        "ethaddr" : "ba73facb4f8291f09f27f90fe1213537b910065e",
+        "hucaddr": "ba73facb4f8291f09f27f90fe1213537b910065e",
         "email" : "foo@bar.com",
         "btcaddr" : "1JEQr5LHrY8yVmWFaB31BVa9Y6sLQ9Kg41"
     },
-    "web3-v3-geth":{
+    "webu-v3-ghuc":{
         "address":"7693f032fd9553cccc709202904eaa3c3bf0400e",
         "crypto":{
             "cipher":"aes-128-ctr",
@@ -26,7 +26,7 @@
         "id":"9130c855-3125-4de3-801e-0578f856847e",
         "version":3
     },
-    "web3-v3-eth":{
+    "webu-v3-huc":{
         "address" : "92f13ca44409e29cf541f241dec06deb464d258d",
         "crypto" : {
             "cipher" : "aes-128-ctr",
@@ -47,7 +47,7 @@
         "id" : "544e7870-7d8f-d8c3-920f-57bde0f5c954",
         "version" : 3
     },
-    "web3-v3-parity":{
+    "webu-v3-parity":{
         "id":"0525de0c-6d32-3047-74aa-564b8809d536",
         "version":3,
         "crypto":{
@@ -69,7 +69,7 @@
         "name":"0525de0c-6d32-3047-74aa-564b8809d536",
         "meta":"{}"
     },
-    "web3-v3-myethereumwallet":{
+    "webu-v3-myhappyucwallet":{
         "version":3,
         "id":"7f8a503e-e2c2-413e-852f-930599557431",
         "address":"7d9da52cc4201dde495c1a7e186d2a17729732c5",
