@@ -5,20 +5,20 @@ const assert = require('chai').assert;
 describe('recognize valid keyfiles', () => {
     const json = JSON.parse(fs.readFileSync('test/keyfiles-valid-instances.json'));
 
-    it('type: ethersale', () => {
-        assert.deepEqual(['ethersale', undefined], recognizer(json['ethersale']))
+    it('type: hucersale', () => {
+        assert.deepEqual(['hucersale', undefined], recognizer(json['hucersale']))
     });
-    it('type: web3 v3 geth', () => {
-        assert.deepEqual(['web3', 3], recognizer(json['web3-v3-geth']))
+    it('type: webu v3 ghuc', () => {
+        assert.deepEqual(['webu', 3], recognizer(json['webu-v3-ghuc']))
     });
-    it('type: web3 v3 eth', () => {
-        assert.deepEqual(['web3', 3], recognizer(json['web3-v3-eth']))
+    it('type: webu v3 huc', () => {
+        assert.deepEqual(['webu', 3], recognizer(json['webu-v3-huc']))
     });
-    it('type: web3 v3 parity', () => {
-        assert.deepEqual(['web3', 3], recognizer(json['web3-v3-parity']))
+    it('type: webu v3 parity', () => {
+        assert.deepEqual(['webu', 3], recognizer(json['webu-v3-parity']))
     });
-    it('type: web3 v3 myethereumwallet', () => {
-        assert.deepEqual(['web3', 3], recognizer(json['web3-v3-myethereumwallet']))
+    it('type: webu v3 myhappyucwallet', () => {
+        assert.deepEqual(['webu', 3], recognizer(json['webu-v3-myhappyucwallet']))
     });
 });
 
@@ -26,12 +26,12 @@ describe('recognize invalid keyfiles', () => {
     const json = JSON.parse(fs.readFileSync('test/keyfiles-invalid-instances.json'));
 
     it('missing key-value pair', () => {
-        assert.notDeepEqual(['web3', 3], recognizer(json['missing-key']))
+        assert.notDeepEqual(['webu', 3], recognizer(json['missing-key']))
     });
     it('invalid key', () => {
-        assert.notDeepEqual(['web3', 3], recognizer(json['invalid-key']))
+        assert.notDeepEqual(['webu', 3], recognizer(json['invalid-key']))
     });
     it('invalid value-type', () => {
-        assert.notDeepEqual(['web3', 3], recognizer(json['invalid-value-type']))
+        assert.notDeepEqual(['webu', 3], recognizer(json['invalid-value-type']))
     });
 });

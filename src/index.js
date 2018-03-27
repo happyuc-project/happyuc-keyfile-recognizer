@@ -27,7 +27,7 @@ const structureJson = toLower(structureJsonRaw);
  * Matches the input object's structure against valid keyfile structures
  * (respects key and value-type)
  * @param  {Object} obj input keyfile object
- * @return {[String, Number]} array of type (web3|ethersale) and version
+ * @return {[String, Number]} array of type (webu|hucersale) and version
  */
 module.exports = (obj) => {
     let result = null;
